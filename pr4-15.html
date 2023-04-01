@@ -1,0 +1,14 @@
+<script>
+        var no = parseInt(prompt("Enter number:")); 
+        var a = 0, b = 1;
+
+        document.write("<h3>"+a+"</h3>");
+        document.write("<h3>"+b+"</h3>");
+
+        for (var i = 2; i < no; i++) {
+            var c = a + b;
+            document.write("<h3>"+c+"</h3>");
+            a = b;
+            b = c;
+        }
+    </script>
